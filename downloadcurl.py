@@ -12,7 +12,7 @@ def download_file(url, output_filename):
             for chunk in response.iter_content(chunk_size=8192):
                 file.write(chunk)
 
-        print(f"File downloaded successfully as {output_filename}")
+        print(f"> File downloaded successfully as {output_filename}")
     except requests.exceptions.RequestException as e:
         print(f"Error downloading file: {e}")
         sys.exit(1)
