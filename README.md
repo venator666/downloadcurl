@@ -1,6 +1,6 @@
 # downloadcurl
 
-Description:
+# 💦 Description:
 DownloadCurl is a lightweight Python script designed to replicate the functionality of curl for downloading files from URLs, with the added flexibility of specifying the output filename. This script is perfect for users who want a quick, Python-powered solution that integrates seamlessly into their command-line workflows.
 
 # ✨ Features
