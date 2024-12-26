@@ -14,7 +14,10 @@ Usage:
 2. Use the command downloadcurl <URL> <output_filename> to download files.
 
 Example:
+
+```
 downloadcurl https://example.com/sample.txt output.txt
+```
 
 Requirements:
 > Python 3.6 or higher
@@ -22,10 +25,20 @@ Requirements:
 
 Installation:
 1. Clone the repository:
+
+```
 git clone https://github.com/venator666/downloadcurl.git
+```
+
 2. Move the script to a directory in your PATH:
+
+```
 sudo mv downloadcurl.py /usr/local/bin/downloadcurl
+```
+
+```
 sudo chmod +x /usr/local/bin/downloadcurl
+```
 
 License:
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it.
